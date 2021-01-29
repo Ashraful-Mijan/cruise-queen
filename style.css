@@ -122,3 +122,42 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+button {
+    background-color: #F3F5FF;
+    border: 1px solid #ddd;
+    outline: none;
+    color: dimgrey;
+    padding: 0 5px;
+    font-size: 25px;
+}
+/* booking info */
+.booking-info {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: 8%;
+    top: 10%;
+    text-align: center;
+    width: 40%;
+    margin-left: 180px;
+    display: none;
+}
+.booking-info > div {
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    background-color: #7fffd4bb;
+}
+.booking-info > div p {
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.booking-info > div p .color {
+    color: #E33741;
+}
