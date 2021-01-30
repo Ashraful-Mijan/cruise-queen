@@ -106,6 +106,7 @@
             </div>
             <button id="bookNow" class="btn-style">Book Now</button>
         </div>
+
         <div id="bookingInfo" class="booking-info">
             <h1>Your Booking Ticket Info</h1>
             <div>
@@ -154,13 +155,6 @@
                 totalTicket = ticketQuantityNumber - 1;
             } 
             document.getElementById(ticketType +'Ticket').value = totalTicket;
-            let totalTicketAmount = 0;
-            if (ticketType == 'firstClass') {
-                totalTicketAmount = totalTicket * 150;
-            }
-            if (ticketType == 'economy') {
-                totalTicketAmount = totalTicket * 100;
-            }
             totalCalculation()
         }
 
